@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spring-redis-postgres:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca7e176d-4fb4-42d7-b0e1-2bc3161f49b1" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENV/docker-compose-cluster.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENV/docker-compose-single.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENV/redis-cluster.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENV/redis-single.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/SpringRedisPostgresApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/config/RedisCacheConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/config/RedisCacheErrorHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/controller/PostController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/controller/PostExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/exceptions/PostNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/model/Author.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/model/Post.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/repository/PostRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/service/PostService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/service/PostServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/SpringRedisPostgresApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/config/RedisCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/config/RedisCacheErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/controller/PostExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/exceptions/PostNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/model/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/service/PostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springredispostgres/SpringRedisPostgresApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-redis-postgres" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-redis-postgres" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-redis-postgres" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-redis-postgres" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ok213" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1aFQjZbzU9yKGepmR6mprnc4Rzx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerMachine" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+    <option name="stackFrameCustomizationEnabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.springredispostgres.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\redis\spring-redis-postgres\ENV" />
+      <recent name="C:\projects\redis\spring-redis-postgres\src\main\java\com\example\springredispostgres" />
+      <recent name="C:\projects\redis\spring-redis-postgres\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.springredispostgres.exceptions" />
+      <recent name="com.example.springredispostgres.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\redis\spring-redis-postgres\ENV\" />
+      <recent name="C:\projects\redis\spring-redis-postgres\ENV\doing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringRedisPostgresApplication">
+    <configuration name="spring-redis-postgres [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-redis-postgres [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-redis-postgres [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringRedisPostgresApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-redis-postgres.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springredispostgres.SpringRedisPostgresApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.spring-redis-postgres [bootJar]" />
+      <item itemvalue="Gradle.spring-redis-postgres [build]" />
+      <item itemvalue="Gradle.spring-redis-postgres [clean]" />
+      <item itemvalue="Spring Boot.SpringRedisPostgresApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.spring-redis-postgres [bootJar]" />
+        <item itemvalue="Gradle.spring-redis-postgres [clean]" />
+        <item itemvalue="Gradle.spring-redis-postgres [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca7e176d-4fb4-42d7-b0e1-2bc3161f49b1" name="Default Changelist" comment="" />
+      <created>1586328997277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586328997277</updated>
+      <workItem from="1586329003694" duration="23254000" />
+      <workItem from="1586410445007" duration="13333000" />
+      <workItem from="1586494242739" duration="6486000" />
+      <workItem from="1586502192991" duration="708000" />
+      <workItem from="1586676436683" duration="3074000" />
+      <workItem from="1586686994644" duration="48000" />
+      <workItem from="1586754271396" duration="27991000" />
+      <workItem from="1586785519857" duration="133000" />
+      <workItem from="1586844169463" duration="1314000" />
+      <workItem from="1586852429488" duration="4724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2445" y="249" key="#BuildArtifactsBeforeRunChooser" timestamp="1586774396929">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2445" y="249" key="#BuildArtifactsBeforeRunChooser/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586774396929" />
+    <state x="2220" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586777559632">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2220" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586777559632" />
+    <state x="2570" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1586770040241">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2570" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586770040241" />
+    <state x="2525" y="269" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586775498036">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2525" y="269" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586775498036" />
+    <state x="2403" y="146" key="#webapp" timestamp="1586776914903">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2403" y="146" key="#webapp/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586776914903" />
+    <state x="2520" y="170" key="#xdebugger.evaluate" timestamp="1586356084895">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2520" y="170" key="#xdebugger.evaluate/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586356084895" />
+    <state x="2228" y="40" key="CommitChangelistDialog2" timestamp="1586860964651">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2228" y="40" key="CommitChangelistDialog2/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860964651" />
+    <state x="2545" y="219" key="FileChooserDialogImpl" timestamp="1586860730564">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2545" y="219" key="FileChooserDialogImpl/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860730564" />
+    <state width="1416" height="260" key="GridCell.Tab.0.bottom" timestamp="1586860677319">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.0.bottom/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677319" />
+    <state width="1411" height="270" key="GridCell.Tab.0.bottom/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
+    <state width="1416" height="260" key="GridCell.Tab.0.center" timestamp="1586860677318">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.0.center/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677318" />
+    <state width="1411" height="270" key="GridCell.Tab.0.center/0.0.1603.862@0.0.1603.862" timestamp="1586686949767" />
+    <state width="1416" height="260" key="GridCell.Tab.0.left" timestamp="1586860677318">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.0.left/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677318" />
+    <state width="1411" height="270" key="GridCell.Tab.0.left/0.0.1603.862@0.0.1603.862" timestamp="1586686949767" />
+    <state width="1416" height="260" key="GridCell.Tab.0.right" timestamp="1586860677318">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.0.right/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677318" />
+    <state width="1411" height="270" key="GridCell.Tab.0.right/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
+    <state width="1416" height="260" key="GridCell.Tab.1.bottom" timestamp="1586860677320">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.1.bottom/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677320" />
+    <state width="1411" height="270" key="GridCell.Tab.1.bottom/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
+    <state width="1416" height="260" key="GridCell.Tab.1.center" timestamp="1586860677319">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.1.center/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677319" />
+    <state width="1411" height="270" key="GridCell.Tab.1.center/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
+    <state width="1416" height="260" key="GridCell.Tab.1.left" timestamp="1586860677319">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.1.left/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677319" />
+    <state width="1411" height="270" key="GridCell.Tab.1.left/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
+    <state width="1416" height="260" key="GridCell.Tab.1.right" timestamp="1586860677320">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.1.right/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677320" />
+    <state width="1411" height="270" key="GridCell.Tab.1.right/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
+    <state width="1416" height="260" key="GridCell.Tab.2.bottom" timestamp="1586860677320">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.2.bottom/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677320" />
+    <state width="1411" height="270" key="GridCell.Tab.2.bottom/0.0.1603.862@0.0.1603.862" timestamp="1586686949769" />
+    <state width="1416" height="260" key="GridCell.Tab.2.center" timestamp="1586860677320">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.2.center/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677320" />
+    <state width="1411" height="270" key="GridCell.Tab.2.center/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
+    <state width="1416" height="260" key="GridCell.Tab.2.left" timestamp="1586860677320">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.2.left/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677320" />
+    <state width="1411" height="270" key="GridCell.Tab.2.left/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
+    <state width="1416" height="260" key="GridCell.Tab.2.right" timestamp="1586860677320">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.2.right/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677320" />
+    <state width="1411" height="270" key="GridCell.Tab.2.right/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
+    <state x="2276" y="57" key="SettingsEditor" timestamp="1586775685637">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2276" y="57" key="SettingsEditor/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586775685637" />
+    <state x="2406" y="185" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1586777017909">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2406" y="185" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586777017909" />
+    <state x="2406" y="185" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize" timestamp="1586777045655">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2406" y="185" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586777045655" />
+    <state x="2507" y="86" key="refactoring.ChangeSignatureDialog" timestamp="1586330606822">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2507" y="86" key="refactoring.ChangeSignatureDialog/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586330606822" />
+    <state x="2428" y="210" key="search.everywhere.popup" timestamp="1586331360572">
+      <screen x="1920" y="0" width="1603" height="902" />
+    </state>
+    <state x="2428" y="210" key="search.everywhere.popup/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586331360572" />
+  </component>
+</project>

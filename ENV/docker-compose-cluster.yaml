@@ -1,0 +1,142 @@
+#
+#   DOCKER REDIS CLUSTER
+#
+#   start redis client:
+#   docker run -it --network redisnet --rm redis redis-cli -h redis-1 -p 7001
+#
+version: '3.5'
+services:
+
+    redis-cluster:
+        image: redis
+        container_name: redis-cli
+        hostname: redis-cli
+        command: redis-cli -p 7001 --cluster create 10.0.0.11:7001 10.0.0.12:7002 10.0.0.13:7003 10.0.0.14:7004 10.0.0.15:7005 10.0.0.16:7006 --cluster-replicas 1 --cluster-yes
+        depends_on:
+            - redis-1
+            - redis-2
+            - redis-3
+            - redis-4
+            - redis-5
+            - redis-6
+        networks:
+            redisnet:
+                ipv4_address: 10.0.0.2
+
+    redis-1:
+        image: redis
+        container_name: redis-1
+        hostname: redis-1
+        ports:
+            - "7001:7001"
+        volumes:
+            - ./redis-cluster.conf:/tmp/redis.template
+        networks:
+            redisnet:
+                ipv4_address: 10.0.0.11
+        command: /bin/bash -c "cat /tmp/redis.template | sed 's/SERVER_PORT/7001/g' > /usr/local/etc/redis.conf && redis-server /usr/local/etc/redis.conf"
+
+    redis-2:
+        image: redis
+        container_name: redis-2
+        hostname: redis-2
+        ports:
+            - "7002:7002"
+        volumes:
+            - ./redis-cluster.conf:/tmp/redis.template
+        networks:
+            redisnet:
+                ipv4_address: 10.0.0.12
+        command: /bin/bash -c "cat /tmp/redis.template | sed 's/SERVER_PORT/7002/g' > /usr/local/etc/redis.conf && redis-server /usr/local/etc/redis.conf"
+
+    redis-3:
+        image: redis
+        container_name: redis-3
+        hostname: redis-3
+        ports:
+            - "7003:7003"
+        volumes:
+            - ./redis-cluster.conf:/tmp/redis.template
+        networks:
+            redisnet:
+                ipv4_address: 10.0.0.13
+        command: /bin/bash -c "cat /tmp/redis.template | sed 's/SERVER_PORT/7003/g' > /usr/local/etc/redis.conf && redis-server /usr/local/etc/redis.conf"
+
+    redis-4:
+        image: redis
+        container_name: redis-4
+        hostname: redis-4
+        ports:
+            - "7004:7004"
+        volumes:
+            - ./redis-cluster.conf:/tmp/redis.template
+        networks:
+            redisnet:
+                ipv4_address: 10.0.0.14
+        command: /bin/bash -c "cat /tmp/redis.template | sed 's/SERVER_PORT/7004/g' > /usr/local/etc/redis.conf && redis-server /usr/local/etc/redis.conf"
+
+    redis-5:
+        image: redis
+        container_name: redis-5
+        hostname: redis-5
+        ports:
+            - "7005:7005"
+        volumes:
+            - ./redis-cluster.conf:/tmp/redis.template
+        networks:
+            redisnet:
+                ipv4_address: 10.0.0.15
+        command: /bin/bash -c "cat /tmp/redis.template | sed 's/SERVER_PORT/7005/g' > /usr/local/etc/redis.conf && redis-server /usr/local/etc/redis.conf"
+
+    redis-6:
+        image: redis
+        container_name: redis-6
+        hostname: redis-6
+        ports:
+            - "7006:7006"
+        volumes:
+            - ./redis-cluster.conf:/tmp/redis.template
+        networks:
+            redisnet:
+                ipv4_address: 10.0.0.16
+        command: /bin/bash -c "cat /tmp/redis.template | sed 's/SERVER_PORT/7006/g' > /usr/local/etc/redis.conf && redis-server /usr/local/etc/redis.conf"
+
+    redis-postgres:
+        image: postgres
+        container_name: redis-postgres
+        hostname: redis-postgres
+        environment:
+            POSTGRES_USER: ${POSTGRES_USER:-postgres}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+            POSTGRES_DB: testrediscache
+        ports:
+            - "5432:5432"
+        networks:
+            redisnet:
+                ipv4_address: 10.0.0.3
+
+    redis-webapp:
+        image: openjdk:11-jre-slim
+        container_name: redis-webapp
+        hostname: redis-webapp
+        ports:
+            - "8080:8080"
+        networks:
+            redisnet:
+                ipv4_address: 10.0.0.4
+        volumes:
+            - ../build/libs:/data
+        working_dir: /data
+        command: java -jar /data/spring-redis-postgres-0.0.1-SNAPSHOT.jar
+        depends_on:
+            - redis-cluster
+            - redis-postgres
+
+networks:
+    redisnet:
+        driver: bridge
+        name: "redisnet"
+        ipam:
+            config:
+                - subnet: 10.0.0.0/16
+

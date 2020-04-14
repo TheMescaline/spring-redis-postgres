@@ -1,0 +1,55 @@
+#
+#   DOCKER REDIS SERVER
+#
+#   start redis client:
+#   docker run -it --network redisnet --rm redis redis-cli -h redis-single
+#
+version: '3.5'
+services:
+    redis-single:
+        image: redis
+        container_name: redis-single
+        hostname: redis-single
+        ports:
+            - "6379:6379"
+        networks:
+            - redisnet
+        volumes:
+            - ./redis-single.conf:/usr/local/etc/redis.conf
+        command: redis-server /usr/local/etc/redis.conf
+
+    redis-postgres:
+        image: postgres
+        container_name: redis-postgres
+        hostname: redis-postgres
+        environment:
+            POSTGRES_USER: ${POSTGRES_USER:-postgres}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+            POSTGRES_DB: testrediscache
+        ports:
+            - "5432:5432"
+        networks:
+            - redisnet
+
+#    redis-webapp:
+#        image: openjdk:11-jre-slim
+#        container_name: redis-webapp
+#        hostname: redis-webapp
+#        expose:
+#            - "8080"
+#        ports:
+#            - "8080:8080"
+#        networks:
+#            - redisnet
+#        volumes:
+#            - ../build/libs:/data
+#        working_dir: /data
+#        command: java -jar /data/spring-redis-postgres-0.0.1-SNAPSHOT.jar
+#        depends_on:
+#            - redis-single
+#            - redis-postgres
+
+networks:
+    redisnet:
+        driver: bridge
+        name: "redisnet"
