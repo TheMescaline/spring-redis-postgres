@@ -7,57 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca7e176d-4fb4-42d7-b0e1-2bc3161f49b1" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENV/docker-compose-cluster.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENV/docker-compose-single.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENV/redis-cluster.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENV/redis-single.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/SpringRedisPostgresApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/config/RedisCacheConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/config/RedisCacheErrorHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/controller/PostController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/controller/PostExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/exceptions/PostNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/model/Author.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/model/Post.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/repository/PostRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/service/PostService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/service/PostServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/SpringRedisPostgresApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/config/RedisCacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/config/RedisCacheErrorHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/controller/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/controller/PostExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/exceptions/PostNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/model/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/service/PostServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springredispostgres/SpringRedisPostgresApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/controller/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/service/PostServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/springredispostgres/service/PostServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/service/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springredispostgres/service/PostServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,8 +247,17 @@
       <workItem from="1586754271396" duration="27991000" />
       <workItem from="1586785519857" duration="133000" />
       <workItem from="1586844169463" duration="1314000" />
-      <workItem from="1586852429488" duration="4724000" />
+      <workItem from="1586852429488" duration="5027000" />
+      <workItem from="1586939071430" duration="6272000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1586861049871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586861049871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,10 +276,11 @@
       <screen x="1920" y="0" width="1603" height="902" />
     </state>
     <state x="2220" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586777559632" />
-    <state x="2570" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1586770040241">
-      <screen x="1920" y="0" width="1603" height="902" />
+    <state x="650" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1586943214692">
+      <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state x="2570" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586770040241" />
+    <state x="650" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586943214692" />
+    <state x="2570" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586939984741" />
     <state x="2525" y="269" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586775498036">
       <screen x="1920" y="0" width="1603" height="902" />
     </state>
@@ -328,73 +293,89 @@
       <screen x="1920" y="0" width="1603" height="902" />
     </state>
     <state x="2520" y="170" key="#xdebugger.evaluate/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586356084895" />
-    <state x="2228" y="40" key="CommitChangelistDialog2" timestamp="1586860964651">
+    <state x="2228" y="40" key="CommitChangelistDialog2" timestamp="1586861293056">
       <screen x="1920" y="0" width="1603" height="902" />
     </state>
-    <state x="2228" y="40" key="CommitChangelistDialog2/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860964651" />
+    <state x="2228" y="40" key="CommitChangelistDialog2/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586861293056" />
     <state x="2545" y="219" key="FileChooserDialogImpl" timestamp="1586860730564">
       <screen x="1920" y="0" width="1603" height="902" />
     </state>
     <state x="2545" y="219" key="FileChooserDialogImpl/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860730564" />
-    <state width="1416" height="260" key="GridCell.Tab.0.bottom" timestamp="1586860677319">
+    <state x="2517" y="338" key="Github.ShareDialog" timestamp="1586861075591">
       <screen x="1920" y="0" width="1603" height="902" />
     </state>
-    <state width="1416" height="260" key="GridCell.Tab.0.bottom/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677319" />
+    <state x="2517" y="338" key="Github.ShareDialog/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586861075591" />
+    <state width="1417" height="205" key="GridCell.Tab.0.bottom" timestamp="1586945163926">
+      <screen x="0" y="0" width="1603" height="862" />
+    </state>
+    <state width="1417" height="205" key="GridCell.Tab.0.bottom/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586945163926" />
+    <state width="1417" height="216" key="GridCell.Tab.0.bottom/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586941249752" />
     <state width="1411" height="270" key="GridCell.Tab.0.bottom/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
-    <state width="1416" height="260" key="GridCell.Tab.0.center" timestamp="1586860677318">
-      <screen x="1920" y="0" width="1603" height="902" />
+    <state width="1417" height="205" key="GridCell.Tab.0.center" timestamp="1586945163926">
+      <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state width="1416" height="260" key="GridCell.Tab.0.center/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677318" />
+    <state width="1417" height="205" key="GridCell.Tab.0.center/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586945163926" />
+    <state width="1417" height="216" key="GridCell.Tab.0.center/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586941249751" />
     <state width="1411" height="270" key="GridCell.Tab.0.center/0.0.1603.862@0.0.1603.862" timestamp="1586686949767" />
-    <state width="1416" height="260" key="GridCell.Tab.0.left" timestamp="1586860677318">
-      <screen x="1920" y="0" width="1603" height="902" />
+    <state width="1417" height="205" key="GridCell.Tab.0.left" timestamp="1586945163926">
+      <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state width="1416" height="260" key="GridCell.Tab.0.left/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677318" />
+    <state width="1417" height="205" key="GridCell.Tab.0.left/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586945163926" />
+    <state width="1417" height="216" key="GridCell.Tab.0.left/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586941249751" />
     <state width="1411" height="270" key="GridCell.Tab.0.left/0.0.1603.862@0.0.1603.862" timestamp="1586686949767" />
-    <state width="1416" height="260" key="GridCell.Tab.0.right" timestamp="1586860677318">
-      <screen x="1920" y="0" width="1603" height="902" />
+    <state width="1417" height="205" key="GridCell.Tab.0.right" timestamp="1586945163926">
+      <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state width="1416" height="260" key="GridCell.Tab.0.right/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677318" />
+    <state width="1417" height="205" key="GridCell.Tab.0.right/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586945163926" />
+    <state width="1417" height="216" key="GridCell.Tab.0.right/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586941249752" />
     <state width="1411" height="270" key="GridCell.Tab.0.right/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
-    <state width="1416" height="260" key="GridCell.Tab.1.bottom" timestamp="1586860677320">
-      <screen x="1920" y="0" width="1603" height="902" />
+    <state width="1417" height="205" key="GridCell.Tab.1.bottom" timestamp="1586945163927">
+      <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state width="1416" height="260" key="GridCell.Tab.1.bottom/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677320" />
+    <state width="1417" height="205" key="GridCell.Tab.1.bottom/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586945163927" />
+    <state width="1417" height="216" key="GridCell.Tab.1.bottom/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586941249754" />
     <state width="1411" height="270" key="GridCell.Tab.1.bottom/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
-    <state width="1416" height="260" key="GridCell.Tab.1.center" timestamp="1586860677319">
-      <screen x="1920" y="0" width="1603" height="902" />
+    <state width="1417" height="205" key="GridCell.Tab.1.center" timestamp="1586945163927">
+      <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state width="1416" height="260" key="GridCell.Tab.1.center/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677319" />
+    <state width="1417" height="205" key="GridCell.Tab.1.center/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586945163927" />
+    <state width="1417" height="216" key="GridCell.Tab.1.center/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586941249753" />
     <state width="1411" height="270" key="GridCell.Tab.1.center/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
-    <state width="1416" height="260" key="GridCell.Tab.1.left" timestamp="1586860677319">
-      <screen x="1920" y="0" width="1603" height="902" />
+    <state width="1417" height="205" key="GridCell.Tab.1.left" timestamp="1586945163927">
+      <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state width="1416" height="260" key="GridCell.Tab.1.left/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677319" />
+    <state width="1417" height="205" key="GridCell.Tab.1.left/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586945163927" />
+    <state width="1417" height="216" key="GridCell.Tab.1.left/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586941249753" />
     <state width="1411" height="270" key="GridCell.Tab.1.left/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
-    <state width="1416" height="260" key="GridCell.Tab.1.right" timestamp="1586860677320">
-      <screen x="1920" y="0" width="1603" height="902" />
+    <state width="1417" height="205" key="GridCell.Tab.1.right" timestamp="1586945163927">
+      <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state width="1416" height="260" key="GridCell.Tab.1.right/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677320" />
+    <state width="1417" height="205" key="GridCell.Tab.1.right/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586945163927" />
+    <state width="1417" height="216" key="GridCell.Tab.1.right/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586941249754" />
     <state width="1411" height="270" key="GridCell.Tab.1.right/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
-    <state width="1416" height="260" key="GridCell.Tab.2.bottom" timestamp="1586860677320">
-      <screen x="1920" y="0" width="1603" height="902" />
+    <state width="1417" height="205" key="GridCell.Tab.2.bottom" timestamp="1586945163927">
+      <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state width="1416" height="260" key="GridCell.Tab.2.bottom/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677320" />
+    <state width="1417" height="205" key="GridCell.Tab.2.bottom/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586945163927" />
+    <state width="1417" height="216" key="GridCell.Tab.2.bottom/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586941249755" />
     <state width="1411" height="270" key="GridCell.Tab.2.bottom/0.0.1603.862@0.0.1603.862" timestamp="1586686949769" />
-    <state width="1416" height="260" key="GridCell.Tab.2.center" timestamp="1586860677320">
-      <screen x="1920" y="0" width="1603" height="902" />
+    <state width="1417" height="205" key="GridCell.Tab.2.center" timestamp="1586945163927">
+      <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state width="1416" height="260" key="GridCell.Tab.2.center/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677320" />
+    <state width="1417" height="205" key="GridCell.Tab.2.center/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586945163927" />
+    <state width="1417" height="216" key="GridCell.Tab.2.center/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586941249754" />
     <state width="1411" height="270" key="GridCell.Tab.2.center/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
-    <state width="1416" height="260" key="GridCell.Tab.2.left" timestamp="1586860677320">
-      <screen x="1920" y="0" width="1603" height="902" />
+    <state width="1417" height="205" key="GridCell.Tab.2.left" timestamp="1586945163927">
+      <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state width="1416" height="260" key="GridCell.Tab.2.left/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677320" />
+    <state width="1417" height="205" key="GridCell.Tab.2.left/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586945163927" />
+    <state width="1417" height="216" key="GridCell.Tab.2.left/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586941249754" />
     <state width="1411" height="270" key="GridCell.Tab.2.left/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
-    <state width="1416" height="260" key="GridCell.Tab.2.right" timestamp="1586860677320">
-      <screen x="1920" y="0" width="1603" height="902" />
+    <state width="1417" height="205" key="GridCell.Tab.2.right" timestamp="1586945163927">
+      <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state width="1416" height="260" key="GridCell.Tab.2.right/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586860677320" />
+    <state width="1417" height="205" key="GridCell.Tab.2.right/0.0.1603.862/1920.0.1603.902@0.0.1603.862" timestamp="1586945163927" />
+    <state width="1417" height="216" key="GridCell.Tab.2.right/0.0.1603.862/1920.0.1603.902@1920.0.1603.902" timestamp="1586941249755" />
     <state width="1411" height="270" key="GridCell.Tab.2.right/0.0.1603.862@0.0.1603.862" timestamp="1586686949768" />
     <state x="2276" y="57" key="SettingsEditor" timestamp="1586775685637">
       <screen x="1920" y="0" width="1603" height="902" />
